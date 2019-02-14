@@ -40,11 +40,16 @@ int main(void)
   board_key_init();       //Init key port,TIM3
   board_key_start_scan(); //Start scan
 
+  // fsm_key_state[BUTTON_USER1] = IDLE;
+  // fsm_key_state[BUTTON_USER2] = IDLE;
+  // fsm_key_state[BUTTON_USER3] = IDLE;
+
   while (1)
   {
     if (key_down[BUTTON_USER1]) //Check KEY status
     {
       board_led_ctrl(LED1, ON);
+      // board_led_toggle(LED1);
       key_down[BUTTON_USER1] = FALSE; //Key status should	clear manually
     }
     else if (key_up[BUTTON_USER1])
