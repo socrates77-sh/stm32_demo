@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/board",
+                "${workspaceFolder}/stm32fxx/STM32F0xx_StdPeriph_Driver/inc"
+            ],
+            "defines": [
+                "USE_STDPERIPH_DRIVER",
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "E:\\MinGW\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

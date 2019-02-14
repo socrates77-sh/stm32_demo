@@ -1,0 +1,12 @@
+# Byte-compiled / optimized / DLL files
+*.sct
+*.o
+*.lst
+*.lnp
+*.map
+*.iex
+*.dep
+*.d
+*.crf
+*.axf
+
